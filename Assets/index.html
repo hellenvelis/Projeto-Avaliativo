@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta id="viewport" name="viewport" content="width=device-width, user-scable=no">
+		<link href="css/style.css" rel="stylesheet"/>
+		<link rel="stylesheet" href="js/nivo-slider/nivo-slider.css" type="text/css"  media="screen"/>
+		<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/nivo-slider/jquery.nivo.slider.js" type="text/javascript"></script>
+		<script src="js/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+			$('#slider').nivoSlider({
+			effect: 'random',
+			slices: 15,
+			boxCols: 8,
+			boxRows: 4,
+			animSpeed: 500,
+			pauseTime: 3000,
+			startSlide: 0,
+			directionNav: true,
+			controlNav: true,
+			controlNavThumbs: true,
+			pauseOnHover: true,
+			manualAdvance: false,
+			prevText: '',
+			nextText: '',
+			randomStart: false,
+			beforeChange: function(){},
+			afterChange: function(){},
+			slideshowEnd: function(){},
+			lastSlide: function(){},
+			afterLoad: function(){}
+			});
+			});
+			</script>
+		<script type="text/javascript">
+			$(window).load(function() {
+			$('#slider').nivoSlider();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="topo">
+			<div class="topoint">
+				<ul>
+					<li>11 1234-1234</li>
+					<li>11 1234-1234</li>	
+				</ul>	
+			</div>
+		</div>
+		<div class="menu">
+			<div class="menuint">
+				<div class="logo">
+					<img src="images/logo.png" width="150px" height="100%"/>
+				</div>
+				<div class="menuright">
+					<ul>
+						<li> CONTATO </li>
+						<li>CLIENTES</li>
+						<li>EMPRESA
+							<div class="submenu">
+								<div class="submenuitem">SUBMENU 1</div>
+								<div class="submenuitem">SUBMENU 1</div>
+								<div class="submenuitem">SUBMENU 1</div>
+								<div class="submenuitemDIF">SUBMENU 1
+									<div class="submenu2">
+										<div class="submenuitem2">SUBMENU 1</div>
+										<div class="submenuitem2">SUBMENU 1</div>
+										<div class="submenuitem2">SUBMENU 1</div>
+										<div class="submenuitem2">SUBMENU 1</div>
+									</div>
+	                  		</div>
+						</li>
+						<li>HOME</li>	
+					</ul>	
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="containerint">
+				<section>
+					<div class="slider-wrapper">
+						<div id="slider" class="nivo-slider">
+						<img src="images/slider.jpg" />
+						<img src="images/slider4.jpg" />
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="conteudo">
+			<div class="conteudoint">
+				<div class="conteudoint1">
+					<font class="titulo">TESTE DE HTML E CSS</font><br></br>
+					<font class="titulo2">Quesitos de avaliação:</font><br>
+					<ul class="titulo2">
+						<li>Organização do código (quanto mais limpo, melhor)</li>
+						<li>Nivel de detalhismo (quanto mais idêntico, melhor)</li>
+						<li>Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto)</li>
+					</ul>
+					<font class="titulo2">Obrigado e boa sorte!</font>
+				</div>
+				<div class="conteudoint2">
+					<img src="images/conteudo.png" height="212px" width="325px" />
+				</div>
+			</div>
+		</div>
+		<div class="boxdestaque">
+			<div class="boxdestaqueint" >
+				<font class="titulo" id="tituloBox">BOXES DE DESTAQUE</font>
+			</div>
+		</div>
+		<div class="box">
+			<div class="boxint">
+				<div class="fotosbox">
+					<img src="images/BOX1.jpg" height="163px" width="196px" />
+					<font class="titulo2" id="texto1"><a href=""><p>Um texto descritivo com link apenas</p></a></font>
+				</div>
+				<div class="fotosbox">
+					<img src="images/BOX2.jpg" height="163px" width="196px" />
+					<font class="titulo2" id="texto1"><a href=""><p>Um texto descritivo com link apenas</p></a></font>
+				</div>
+				<div class="fotosbox">
+					<img src="images/BOX3.png" height="163px" width="196px" />
+					<font class="titulo2" id="texto1"><a href=""><p>Um texto descritivo com link apenas</p></a></font>
+				</div>
+				<div class="fotosbox">
+					<img src="images/BOX4.png" height="163px" width="196px">
+					<font class="titulo2" id="texto1"><a href=""><p>Um texto descritivo com link apenas</p></a></font>
+				</div>
+			</div>
+		</div>
+		<div class="rodape">
+			<div class="rodapeint">
+				<ul>
+					<li>HOME</li>
+					<li>EMPRESA</li>
+					<li>CLIENTES</li>
+					<li>CONTATO</li>
+				</ul><br><br><br>
+				<p class="rodape2"><b>RODAPE<b></p>
+			</div>
+		</div>
+	</body>
+</html>
